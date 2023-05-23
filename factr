@@ -1,0 +1,14 @@
+# Программа для вычисления факториала числа
+
+def factorial(n)
+  if n == 0
+    return 1
+  else
+    return n * factorial(n-1)
+  end
+end
+
+number = 5
+factorial_result = factorial(number)
+
+puts "Факториал числа #{number}: #{factorial_result}"
